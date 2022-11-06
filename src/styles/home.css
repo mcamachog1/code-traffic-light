@@ -1,0 +1,56 @@
+.Home {
+	width: 100%;
+	height: 100vh;
+	padding-top: 10px;
+	/* background-color: white; */
+	font-family: Lato, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.for-geeks-logo-contenedor {
+	width: 100%;
+	height: 80px;
+	margin: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.for-geeks-logo {
+	height: 60px;
+}
+
+.contenedor-semaforo {
+	width: 400px;
+	height: 500px;
+	padding: 14px;
+	background-color: #6e70fc;
+	border-radius: 20px;
+	border: 5px solid gray;
+	display: grid;
+	justify-content: center;
+}
+.contenedor-palo{
+	display: flex;
+	justify-content: center;
+}
+.palo {
+	background-color: black;
+	min-height: 100px;
+	max-width: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.contenedor-caja-luces {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 280px;
+	width: 120px;
+	background-color: black;
+}
